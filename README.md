@@ -1,5 +1,10 @@
 # Disable Intel AMT
-Tool to disable Intel AMT on Windows. Runs on both x86 and x64 *Windows* operating systems.
+Tool to disable Intel AMT on Windows. Runs on both x86 and x64 **Windows** operating systems. 
+Download:
+
+[DisableAMT.exe](DisableAMT.exe)
+
+[DisableAMT.zip](DisableAMT.zip)
 
 ## What?
 On 02 May 2017, Embedi [discovered](https://www.embedi.com/news/mythbusters-cve-2017-5689) "*an escalation of privilege vulnerability in Intel® Active Management Technology (AMT), Intel® Standard Manageability (ISM), and Intel® Small Business Technology versions firmware versions 6.x, 7.x, 8.x 9.x, 10.x, 11.0, 11.5, and 11.6 that can allow an unprivileged attacker to gain control of the manageability features provided by these products*".
