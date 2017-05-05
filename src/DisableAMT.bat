@@ -1,6 +1,7 @@
 Title Intel AMT disabler
 REM Made by @bartblaze
 REM Use at your own risk
+REM Additional modifications may be necessary to make it work in your environment
 del /f /q %TEMP%\UnAMT.log
 Echo Intel AMT disabler>>"%TEMP%\UnAMT.log"
 Echo This logfile can also be found in %TEMP% as UnAMT.log>>"%TEMP%\UnAMT.log"
@@ -10,6 +11,8 @@ Echo Executed on: %date% @ %time%>>"%TEMP%\UnAMT.log"
 Echo.>>"%TEMP%\UnAMT.log"
 Echo Unconfiguring Intel AMT, please hold...
 %MYFILES%\ACUconfig.exe Unconfigure
+REM Because of the way Quick Batch File Compiler works, a temporary directory starting with 'QB' will be created.
+REM To make it work just like that, simply remove the for loop, but leave TYPE.
 for /f "delims=" %%a in ('dir %TEMP% /ad /b /s ^| find /i "qb"') do (
     TYPE "%%a\*.log" >> "%TEMP%\UnAMT.log"
 	)
