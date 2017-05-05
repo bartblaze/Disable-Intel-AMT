@@ -9,6 +9,9 @@ Download:
 ## What?
 On 02 May 2017, Embedi [discovered](https://www.embedi.com/news/mythbusters-cve-2017-5689) "*an escalation of privilege vulnerability in Intel® Active Management Technology (AMT), Intel® Standard Manageability (ISM), and Intel® Small Business Technology versions firmware versions 6.x, 7.x, 8.x 9.x, 10.x, 11.0, 11.5, and 11.6 that can allow an unprivileged attacker to gain control of the manageability features provided by these products*".
 
+Emedi has also released a technical paper about their discovery:
+[Silent Bob is Silent](https://www.embedi.com/files/white-papers/Silent-Bob-is-Silent.pdf) (PDF)
+
 Read also: [Intel Active Management Technology, Intel Small Business Technology, and Intel Standard Manageability Escalation of Privilege](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00075&languageid=en-fr)
 
 Assigned CVE: [CVE-2017-5689](https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=2017-5689)
