@@ -47,7 +47,7 @@ echo LMS.exe renamed>>"%TEMP%\UnAMT.log"
 cls
 Echo.>>"%TEMP%\UnAMT.log"
 Echo Local Intel AMT listening ports:>>"%TEMP%\UnAMT.log"
-netstat -na | findstr /i "16993 16992 16994 16995 623 664">>"%TEMP%\UnAMT.log"
+netstat -na | findstr /i ":16993 :16992 :16994 :16995 :623 :664">>"%TEMP%\UnAMT.log"
 cls
 Echo.>>"%TEMP%\UnAMT.log"
 Echo We are all done... REBOOT your machine at this point.
