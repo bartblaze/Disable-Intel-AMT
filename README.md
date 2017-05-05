@@ -40,7 +40,7 @@ That's all!
 
 
 ### Details about the tool
-The tool is simply written in batch, and has the necessary components inside to unconfigure AMT. The batch file was compiled to an executable using the free version of [Quick Batch File Compiler](http://www.abyssmedia.com/quickbfc/), and subsequently packed with UPX to reduce filesize. Additionally, ACUConfig.exe and ACU.dll from [Intel's Setup and Configuration Software package](https://downloadcenter.intel.com/download/26505) is included. You may find all these files in the 'src' folder.
+The tool is simply written in batch, and has the necessary components inside to unconfigure AMT. The batch file was compiled to an executable using the free version of [Quick Batch File Compiler](http://www.abyssmedia.com/quickbfc/), and subsequently packed with UPX to reduce filesize. Additionally, ACUConfig.exe and ACU.dll from [Intel's Setup and Configuration Software package](https://downloadcenter.intel.com/download/26505) is included. You may find all these files in the [src](src) folder.
 
 Please find hashes below:
 
