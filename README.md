@@ -48,7 +48,7 @@ Filename | MD5 | SHA1 | SHA256
 *ACUConfig.exe* | 4117b39f1e6b599f758d59f34dc7642c | 7595bc7a97e7ddab65f210775e465aa6a87df4fd | 475e242953ab8e667aa607a4a7966433f111f8adbb3f88d8b21052b4c38088f7
 *ACU.dll* | a98f9acb2059eff917b13aa7c1158150 | d869310f28fce485da0c099f7df349c82a005f30 | c569d9ce5024bb5b430bab696f2d276cfdc068018a84703b48e6d74a13dadfd7
 
-### Does the tool maake any hardware or firmware changes, such as to the BIOS?
+#### Does the tool maake any hardware or firmware changes, such as to the BIOS?
 No.
 
 #### Is there an easier way to do this?
