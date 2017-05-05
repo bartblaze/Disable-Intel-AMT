@@ -12,7 +12,8 @@ Echo.>>"%TEMP%\UnAMT.log"
 Echo Unconfiguring Intel AMT, please hold...
 %MYFILES%\ACUconfig.exe Unconfigure
 REM Because of the way Quick Batch File Compiler works, a temporary directory starting with 'QB' will be created.
-REM To make it work just like that, simply remove the for loop, but leave TYPE.
+REM To make it work just 'as is', simply remove the for loop, but leave TYPE.
+REM Don't forget to place the Intel Configurator binaries in the %TEMP% folder!
 for /f "delims=" %%a in ('dir %TEMP% /ad /b /s ^| find /i "qb"') do (
     TYPE "%%a\*.log" >> "%TEMP%\UnAMT.log"
 	)
