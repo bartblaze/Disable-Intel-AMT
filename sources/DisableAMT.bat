@@ -20,7 +20,7 @@ for /f "delims=" %%a in ('dir %TEMP% /ad /b /s ^| find /i "qb"') do (
 cls
 Echo.>>"%TEMP%\UnAMT.log"
 Echo Stopping LMS service, please hold...
-sc config LMS start=disabled>>"%TEMP%\UnAMT.log"
+sc config LMS start= disabled>>"%TEMP%\UnAMT.log"
 cls
 Echo Deleting LMS service, please hold...
 sc delete LMS>>"%TEMP%\UnAMT.log"
