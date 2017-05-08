@@ -24,7 +24,7 @@ If you see any of these stickers or badges on your laptop, notebook or desktop, 
 
 ![Intel badges](http://i.imgur.com/Evq3CUo.png "Intel badges")
 
-Additionally, Intel AMT does run on non-vPro based processors in some cases with reduced functionality, called [tandard Manageability](https://software.intel.com/en-us/blogs/2009/03/27/what-is-standard-manageability). The tool presented here does not differentiate between processor types. This means it can also disable AMT on your machine, regardless of processor.
+Additionally, Intel AMT does run on non-vPro based processors in some cases with reduced functionality, called [Standard Manageability](https://software.intel.com/en-us/blogs/2009/03/27/what-is-standard-manageability). The tool presented here does not differentiate between processor types. This means it can also disable AMT on your machine, regardless of processor.
 
 You may want to read:
 [How To Find Intel® vPro™ Technology Based PCs](https://communities.intel.com/docs/DOC-5693)
@@ -42,14 +42,14 @@ There is also a short video guide avilable by MajorGeeks [here](https://www.yout
 
 
 ### Details about the tool
-The tool is written in batch, and has the necessary components inside to unconfigure AMT. The batch file was compiled to an executable using the free version of [Quick Batch File Compiler](http://www.abyssmedia.com/quickbfc/), and subsequently packed with UPX to reduce filesize. Additionally, ACUConfig.exe and ACU.dll from [Intel's Setup and Configuration Software package](https://downloadcenter.intel.com/download/26505) is included. You may find all these files in the [src](src) folder.
+The tool is written in batch, and has the necessary components inside to unconfigure AMT. The batch file was compiled to an executable using the free version of [Quick Batch File Compiler](http://www.abyssmedia.com/quickbfc/), and subsequently packed with UPX to reduce filesize. Additionally, ACUConfig.exe and ACU.dll from [Intel's Setup and Configuration Software package](https://downloadcenter.intel.com/download/26505) is included. You may find all these files in the [sources](sources) folder.
 
 Please find hashes below:
 
 Filename | MD5 | SHA1 | SHA256
 --- | --- | --- | ---
-*DisableAMT.exe* | 7876752e29178a85beae1e5a0b636faa | 89a2a64066c127c4f8fbdbf7ad946b59beaf4009 | 796e63854aaf3630cdfff642dc7f18fa4a32097737da45b0a5b83fb0a15fd72a
-*DisableAMT.zip* | fd1e986ba3376c161cdfaf5f5b1ae5fd | e81f58bf35f64067aa359bcbf1bbbe5305d6b13b | 837303761c87f3e8f3bfb3f5cb2eef16679a688df5781dc446300717f42a481f
+*DisableAMT.exe* | fd1e986ba3376c161cdfaf5f5b1ae5fd | e81f58bf35f64067aa359bcbf1bbbe5305d6b13b | 837303761c87f3e8f3bfb3f5cb2eef16679a688df5781dc446300717f42a481f
+*DisableAMT.zip* | 7876752e29178a85beae1e5a0b636faa | 89a2a64066c127c4f8fbdbf7ad946b59beaf4009 | 796e63854aaf3630cdfff642dc7f18fa4a32097737da45b0a5b83fb0a15fd72a
 *ACUConfig.exe* | 4117b39f1e6b599f758d59f34dc7642c | 7595bc7a97e7ddab65f210775e465aa6a87df4fd | 475e242953ab8e667aa607a4a7966433f111f8adbb3f88d8b21052b4c38088f7
 *ACU.dll* | a98f9acb2059eff917b13aa7c1158150 | d869310f28fce485da0c099f7df349c82a005f30 | c569d9ce5024bb5b430bab696f2d276cfdc068018a84703b48e6d74a13dadfd7
 
