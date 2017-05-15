@@ -2,6 +2,7 @@ Title Intel AMT disabler
 REM Made by @bartblaze
 REM Use at your own risk
 REM Additional modifications may be necessary to make it work in your environment
+REM Questions? Help? Feedback? Let me know!
 del /f /q %TEMP%\UnAMT.log
 Echo Intel AMT disabler>>"%TEMP%\UnAMT.log"
 Echo This logfile can also be found in %TEMP% as UnAMT.log>>"%TEMP%\UnAMT.log"
@@ -26,6 +27,8 @@ Echo Deleting LMS service, please hold...
 sc delete LMS>>"%TEMP%\UnAMT.log"
 cls
 @echo off
+REM If you don't want user interaction, simply remove the 'choice' part below, but retain either ItemY or ItemN
+REM You obviously also need to remove the 'ItemY' or 'ItemN' part.
 SET /P Choice=Do you also want to disable the LMS.exe binary? This will rename the file. (Y/N)
 if "%Choice%"=="Y" GOTO ItemY
 if "%Choice%"=="y" GOTO ItemY
