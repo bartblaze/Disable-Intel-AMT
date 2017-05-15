@@ -57,6 +57,28 @@ Filename | MD5 | SHA1 | SHA256
 No.
 
 #### Is there an easier way to do this?
-Probably. Best way to mitigate, is to update your firmware. See for a list of vendors affected [here](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00075&languageid=en-fr).
+Probably. Best way to mitigate, is to update your firmware. See for a list of vendors affected [here](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00075&languageid=en-fr), or see below.
 
+#### List of vendors with firmware updates available:
+HP Inc. - http://www8.hp.com/us/en/intelmanageabilityissue.html
 
+HP Enterprise - http://h22208.www2.hpe.com/eginfolib/securityalerts/CVE-2017-5689-Intel/CVE-2017-5689.html
+
+Lenovo - https://support.lenovo.com/us/en/product_security/LEN-14963
+
+Fujitsu - http://support.ts.fujitsu.com/content/Intel_Firmware.asp
+
+Dell Client - http://en.community.dell.com/techcenter/extras/m/white_papers/20443914
+
+Dell EMC - http://en.community.dell.com/techcenter/extras/m/white_papers/20443937
+
+Acer - https://us.answers.acer.com/app/answers/detail/a_id/47162
+
+Asus - https://www.asus.com/News/uztEkib4zFMHCn5r
+
+Panasonic - http://pc-dl.panasonic.co.jp/itn/info/osinfo20170512.html
+
+Intel – [NUC](http://www.intel.com/content/www/us/en/support/boards-and-kits/000024179.html), [Compute Stick](http://www.intel.com/content/www/us/en/support/boards-and-kits/000024180.html) and [Desktop Boards](https://www.intel.com/content/www/us/en/support/boards-and-kits/000024181.html).
+
+##### Extra information:
+wikiHow on how to [update your computer's BIOS](http://www.wikihow.com/Update-Your-Computer%27s-BIOS)
