@@ -11,6 +11,8 @@ Echo.>>"%TEMP%\UnAMT.log"
 Echo Executed on: %date% @ %time%>>"%TEMP%\UnAMT.log"
 Echo.>>"%TEMP%\UnAMT.log"
 Echo Unconfiguring Intel AMT, please hold...
+REM %MYFILES% is a Quick Batch File Compiler variable. 
+REM Change according to your needs.
 %MYFILES%\ACUconfig.exe Unconfigure
 REM Because of the way Quick Batch File Compiler works, a temporary directory starting with 'QB' will be created.
 REM To make it work just 'as is', simply remove the for loop, but leave TYPE.
@@ -41,6 +43,7 @@ if "%Choice%"=="no" GOTO ItemN
 ECHO "%Choice%" is not valid. Please try again.
 
 :ItemY
+REM Check for and, if exist, rename LMS binary.
 if exist "C:\Program Files\Intel\Intel(R) Management Engine Components\LMS\LMS.exe" (
 ren "C:\Program Files\Intel\Intel(R) Management Engine Components\LMS\LMS.exe" LMS.exe_
 echo LMS.exe renamed>>"%TEMP%\UnAMT.log"
@@ -53,6 +56,7 @@ echo LMS.exe renamed>>"%TEMP%\UnAMT.log"
 @echo off
 cls
 Echo.>>"%TEMP%\UnAMT.log"
+REM Check local listening/open ports belonging to Intel AMT
 Echo Local Intel AMT listening ports:>>"%TEMP%\UnAMT.log"
 netstat -na | findstr /i ":16993 :16992 :16994 :16995 :623 :664">>"%TEMP%\UnAMT.log"
 cls
@@ -73,6 +77,7 @@ exit
 @echo off
 cls
 Echo.>>"%TEMP%\UnAMT.log"
+REM Check local listening/open ports belonging to Intel AMT
 Echo Local Intel AMT listening ports:>>"%TEMP%\UnAMT.log"
 netstat -na | findstr /i ":16993 :16992 :16994 :16995 :623 :664">>"%TEMP%\UnAMT.log"
 cls
